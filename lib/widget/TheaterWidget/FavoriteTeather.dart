@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class FavoriteTeather extends StatelessWidget {
-  const FavoriteTeather({super.key});
+class FavoriteTheater extends StatelessWidget {
+  const FavoriteTheater({super.key});
 
   @override
   Widget build(BuildContext context) {

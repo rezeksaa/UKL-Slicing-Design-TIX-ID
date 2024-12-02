@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ukl/pages/MyTicket.dart';
-import 'package:ukl/pages/Theather.dart';
+import 'package:ukl/pages/Theater.dart';
 import 'package:ukl/pages/Ticket.dart';
 import 'package:ukl/pages/dashboard.dart';
 import 'package:ukl/pages/loginPage.dart';
@@ -86,7 +86,7 @@ class _MainAppState extends State<MainApp> {
 
   final List<Widget> _pages = [
     const dashBoard(),
-    const Theather(),
+    const Theater(),
     const Ticket(),
     const Myticket(),
   ];

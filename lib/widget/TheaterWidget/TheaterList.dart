@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TheatherList extends StatelessWidget {
-  const TheatherList({super.key});
+class TheaterList extends StatelessWidget {
+  const TheaterList({super.key});
 
   @override
   Widget build(BuildContext context) {

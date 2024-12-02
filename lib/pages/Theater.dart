@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:ukl/widget/DashboardWidget/city.dart';
-import 'package:ukl/widget/TeatherWidget/FavoriteTeather.dart';
-import 'package:ukl/widget/TeatherWidget/TheatherList.dart';
+import 'package:ukl/widget/TheaterWidget/FavoriteTeather.dart';
+import 'package:ukl/widget/TheaterWidget/TheaterList.dart';
 
-class Theather extends StatelessWidget {
-  const Theather({super.key});
+class Theater extends StatelessWidget {
+  const Theater({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,12 +13,12 @@ class Theather extends StatelessWidget {
         child: Column(
           children: [
             city(),
-            FavoriteTeather(),
+            FavoriteTheater(),
             Divider(
               thickness: 0.5,
               color: Colors.grey,
             ),
-            TheatherList()
+            TheaterList()
           ],
         ),
       ),
